@@ -6,6 +6,8 @@ on:
     paths:
       "Pet_Data.csv"
 
+  workflow_dispatch:
+
 jobs:
 
   Run_R_Script:
