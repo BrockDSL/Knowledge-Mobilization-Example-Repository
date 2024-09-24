@@ -34,7 +34,7 @@ jobs:
          
 
       - name: Run R script
-        run: Rscript data_analysis_R_script.R
+        run: Rscript /home/runner/work/Automated-Analysis-test-repo/Automated-Analysis-test-repo/data_analysis_R_script.R
 
       - name: Check files in directory again
         run: ls
