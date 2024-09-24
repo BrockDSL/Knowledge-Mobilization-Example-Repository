@@ -28,7 +28,13 @@ jobs:
         run: ls
 
       - name: Run R script
-        run: Rscript data_analysis_R_script.R
+        run: |
+         source("data_analysis_R_script.R")
+        shell: Rscript {0}
+
+      - name: Check files in directory again
+        run: ls
+
 
       - name: Commit changes
         run: |
