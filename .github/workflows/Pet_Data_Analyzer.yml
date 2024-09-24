@@ -25,7 +25,7 @@ jobs:
             any::ggplot2
 
       - name: Run R script
-        run: Rscript -e 'source("data_analysis_R_script.R")
+        run: Rscript -e 'source("data_analysis_R_script.R")'
 
       - name: Commit changes
         run: |
