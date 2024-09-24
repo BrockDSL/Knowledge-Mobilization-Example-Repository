@@ -1,0 +1,37 @@
+name: Pet Data Analyzer
+
+on:
+ 
+  push:
+    paths:
+      "Pet_Data.csv"
+
+jobs:
+
+  Run_R_Script:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up R environment
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: '4.1.0'  # Specify the R version you need, you can adjust this
+
+      - name: Install R dependencies
+        run: |
+          Rscript -e 'install.packages(c("ggplot2", "dplyr"), repos="https://cloud.r-project.org")'
+        shell: bash
+
+      - name: Run R script
+        run: |
+          Rscript data_analysis_R_script.R
+
+      - name: Commit changes
+        run: |
+          git config --global user.name "DanielBrett"
+          git config --global user.email "dbrett@brocku.ca"
+          git add .
+          git commit -m "Pet Data Analyzer was activated"
+          git push
