@@ -24,8 +24,8 @@ jobs:
       #    packages: |
       #      any::ggplot2
 
-      - name: Check working directory
-        run: pwd
+      - name: Check files in directory
+        run: ls
 
       - name: Run R script
         run: Rscript data_analysis_R_script.R
