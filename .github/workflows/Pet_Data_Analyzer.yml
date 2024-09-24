@@ -1,10 +1,10 @@
-name: Pet Data Analyzer
+name: Data Analyzer
 
 on:
  
   push:
     paths:
-      "Pet_Data.csv"
+      "Data.csv"
 
   workflow_dispatch:
 
@@ -16,25 +16,20 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      #- uses: r-lib/actions/setup-r@v2
+      - uses: r-lib/actions/setup-r@v2
 
-      #- name: Install R Packages
-      #  uses: r-lib/actions/setup-r-dependencies@v2
-      #  with:
-      #    packages: |
-      #      any::ggplot2
+      - name: Install R Packages
+        uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          packages: |
+            any::ggplot2
 
       - name: Check files in directory
         run: |
          ls
-         ls /
-         ls -R
-         ls -l
-         pwd
-         
 
       - name: Run R script
-        run: Rscript /home/runner/work/Automated-Analysis-test-repo/Automated-Analysis-test-repo/data_analysis_R_script.R
+        run: Rscript data_analysis_R_script.R
 
       - name: Check files in directory again
         run: ls
