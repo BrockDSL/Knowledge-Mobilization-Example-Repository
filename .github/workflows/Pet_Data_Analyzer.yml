@@ -28,9 +28,7 @@ jobs:
         run: ls
 
       - name: Run R script
-        run: |
-         source("data_analysis_R_script.R")
-        shell: Rscript {0}
+        run: Rscript data_analysis_R_script.R
 
       - name: Check files in directory again
         run: ls
