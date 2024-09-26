@@ -4,7 +4,7 @@ on:
  
   push:
     paths:
-      "Pet_Data.csv"
+      "Data.csv"
 
   workflow_dispatch:
 
