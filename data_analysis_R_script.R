@@ -1,6 +1,6 @@
 library(ggplot2)
 
-data <- read.csv("Pet_Data.csv")
+data <- read.csv("Data.csv")
 
 plot <- ggplot(data, aes(x=Pets)) + 
   geom_bar() +
