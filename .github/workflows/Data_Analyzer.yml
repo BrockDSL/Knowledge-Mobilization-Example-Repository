@@ -40,5 +40,5 @@ jobs:
           git config --global user.name "DanielBrett"
           git config --global user.email "dbrett@brocku.ca"
           git add .
-          git commit -m "Pet Data Analyzer was activated"
+          git commit -m "Data Analyzer was activated"
           git push
