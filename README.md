@@ -11,3 +11,6 @@ Another reason to use GitHub is that it does many of the things you might want f
  - Host a webpage (completely free!)
  - Create an automated workflow that will allow others to run the same analysis that you performed on your data to test your methods or even try it out on their own data!
  - Monitor your repository and gather statistics on views (if you have a webpage you can also add Google Analytics for even more data!)
+
+# This repository
+This repository demonstrates all of the above features and can be cloned and adjusted to fit your projects!
