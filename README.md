@@ -32,12 +32,14 @@ To make a repository:
   - Decide if you want to add a license to your repository.  
     - From the GitHub Documentation: "Without a license added here, the default copyright laws apply, meaning that you retain all rights to your source code and no one may reproduce, distribute, or create derivative works from your work. If you're creating an open source project, we strongly encourage you to include an open source license"
     - For more information on how licenses work on a repository, see the [Licensing a Repository section](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository) of the GitHub documentation
-  - Click the "Create Repository Button"
+- Click the "Create Repository Button"
 
  ## Adding Files in GitHub
-Now that you have a repository all set up, you will want to add or create some files!  On the main page of your repository (sometimes referred to as th "Root" of the repository) you will either have a page telling you to add files in various ways or a page showing your starting files (README, .gitignore, lisence file).  If you decided to add a README file in the repository creation form, on top of being able to see the README file in your list of files, you will see the contents of the README file displayed below!  This is the primary purpose of the README file, being the front page of your repository filled with all the information any visitors might need to know about the purpose of your repository, how to use the files within it, links to any relevant other locvations, etc.
+Now that you have a repository all set up, you will want to add or create some files!  On the main page of your repository (sometimes referred to as the "Root" of the repository) you will either have a page telling you to add files in various ways or a page showing your starting files (README, .gitignore, lisence file).  If you decided to add a README file in the repository creation form, on top of being able to see the README file in your list of files, you will see the contents of the README file displayed below!  This is the primary purpose of the README file, being the front page of your repository filled with all the information any visitors might need to know about the purpose of your repository, how to use the files within it, links to any relevant other locations, etc.
 
 To add new files to your repository, the easiest way is to click the "Add file" button and choose if you want to upload files or create a new file.  Depending on the size of your browser window, the "Add file" button will either look like a + sign or say "Add file".  In either case it is located beside the green "<> Code" button.
+
+If you choose add
 
 ## Markdown and Editing Files
 
