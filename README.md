@@ -1,5 +1,5 @@
 # Getting all your work in one place!
-This repository is intended to serve as template and guide for taking all the components of a project and bringing them together in one place.
+This repository is intended to serve as an example and guide for taking all the components of a project and bringing them together in one place.
 
 ## Why use GitHub?
 GitHub is the perfect place to share your work publicly as it is free, public, and searchable!
