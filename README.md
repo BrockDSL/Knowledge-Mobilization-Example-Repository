@@ -39,7 +39,13 @@ Now that you have a repository all set up, you will want to add or create some f
 
 To add new files to your repository, the easiest way is to click the "Add file" button and choose if you want to upload files or create a new file.  Depending on the size of your browser window, the "Add file" button will either look like a + sign or say "Add file".  In either case it is located beside the green "<> Code" button.
 
-If you choose add
+If you choose to upload files, you will be taken to a page where you can drag files from your desktop or file explorer the upload area.  Alternatively, you can choose to browse your computer for files to upload.  In either case, the files will appear in a list below the upload area once they are ready to be uploaded.
+
+Unlike many other platforms, uploading a file to Github is a two step process. Once you have chosen the files you want to upload they are considered "staged" which means "ready to be committed".  The second step is to commit those files to the repository.  This is done with the commit form at the bottom of the page where you can enter a title describing what is being added to the repository and an optional description for more detail.  The reason for this two step process is that all actions taken on the repository are tracked via a process called "version control".  Version control is the term used to describe how GitHub keeps a detailed history of every change made to each repository, including and details filled into the commit forms, what user made the change, the date and time of the change, and a detailed log of what exactly was changed including files that were added/removed, files that were edited, and even tracking what exact words were changed within a file!  
+
+With that in mind, it is always best to at least put a title on each commit you make briefly describing the change that was made.
+
+Once you have commited new files, they will appear in the list of files on the main page of your repository.
 
 ## Markdown and Editing Files
 
