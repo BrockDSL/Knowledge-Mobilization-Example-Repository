@@ -13,9 +13,11 @@ Another reason to use GitHub is that it does many of the things you might want f
  - Monitor your repository and gather statistics on views (if you have a webpage you can also add Google Analytics for even more data!)
 
 # Try it for yourself!
-This repository demonstrates all of the above features and can be used as a model for your projects!  In the section below, each component is broken down with instructions on how to replicate it.
+This repository demonstrates all of the above features and can be used as a model for your projects!  You can copy this repository to your own GitHub account by "Forking" it using the fork button.
 
-Before you can start exploring all the wonders of GitHub, you will need to sign up for an account at [GitHub.com](https://github.com/)
+Alternatively, the section below breaks down each component of the repository and has instructions on how to replicate it.
+
+Before you can start creating your own repositories with GitHub, you will need to sign up for an account at [GitHub.com](https://github.com/)
 
 ## Creating a Repository
 The first step to any great project in GitHub is to make a repoisitory for that project.  In GitHub you can make as many public repositories as you want completely for free!  You can also make as many private repositories as you want to fill with your private files but some of the extra features like the ability to make a webpage will be limited unless you pay a fee.  
