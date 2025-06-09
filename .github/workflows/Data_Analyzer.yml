@@ -37,8 +37,8 @@ jobs:
 
       - name: Commit changes
         run: |
-          git config --global user.name "DanielBrett"
-          git config --global user.email "dbrett@brocku.ca"
+          git config --global user.name "BrockDSL"
+          git config --global user.email "dsl@brocku.ca"
           git add .
           git commit -m "Data Analyzer was activated"
           git push
